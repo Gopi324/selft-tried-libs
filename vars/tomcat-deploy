@@ -5,6 +5,6 @@ def call(id,ip,u){
     // stop tomcat
     sh "ssh ${u}@${ip} /opt/tom9/bin/shutdown.sh"
     // start tomcat
-    sh "ssh ${u}@${ip} /opt/tom9/bin/startop.sh"
+    sh "ssh ${u}@${ip} /opt/tom9/bin/startup.sh"
   }
 }
